@@ -1,0 +1,132 @@
+:root {}
+
+body {
+    margin: 50px 200px;
+    padding: 50px;
+    background-image: url(https://upscpathshala.com/content/wp-content/uploads/2020/12/Are-the-UPSC-Mains-Exams-Written-Type-or-MCQ-type.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    user-select: none;
+}
+
+header,
+main {
+    color: #fff;
+    font-family: 'Staatliches';
+    font-size: 44px;
+}
+
+p {
+    font-size: 50px;
+    text-align: justify;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a.highscores,
+.timer {
+    color: #fff;
+    font-family: 'Asap Condensed';
+    font-size: 44px;
+    font-weight: bolder;
+}
+
+a.highscores {
+    text-decoration: none;
+}
+
+#start-button {
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: 'Asap Condensed';
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    height: 48px;
+    letter-spacing: .25px;
+    padding: 2px 24px;
+}
+
+button.btn {
+    background-color: #222;
+    border-radius: 14px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Asap Condensed';
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0px 15px 0px 0px;
+    padding: 9px 20px 8px;
+}
+
+#question-text {
+    color: #fff;
+    font-family: 'Asap Condensed';
+    font-size: 48px;
+}
+
+#answer-message {
+    display: none;
+}
+
+#feedback {
+    padding-top: 20px;
+    font-family: 'Anton';
+    font-size: 36px;
+}
+
+#score,
+#initials-container {
+    color: #fff;
+    font-family: 'Asap Condensed';
+    font-size: 36px;
+}
+
+#initials-container,
+#error-message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#error-message {
+    font-size: 24px;
+}
+
+#highscores {
+    color: #fff;
+    font-family: 'Asap Condensed';
+    font-size: 36px;
+}
+
+#highscores li {
+    list-style: none;
+}
+
+#initialsInput,
+#go-back,
+#clear-highscores,
+#save-score {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    color: #24292E;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 6px 16px;
+    text-align: justify;
+}
